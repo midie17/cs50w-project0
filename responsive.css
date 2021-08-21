@@ -13,19 +13,24 @@
     margin-left: 0;
     border: none;
   }
-
-  .table {
-    display: none;
-  }
-
-  #t-fq::before, #t-bio::before, #t-fis::before {
-    background-color: #f0f5f7;
-    border: 2px solid #a7d0d1;
-    content: "Rotar el dispositivo c:";
-  }
 }
-@media (max-width: 765px) {
+@media (max-width: 510px) {
   #notas {
     height: auto;
   }
-}/*# sourceMappingURL=responsive.css.map */
+
+  .table {
+    font-size: 40%;
+  }
+}
+/*@media (min-width:500px) and (orientation: portrait) { 
+    #t-fq::before, #t-bio::before, #t-fis::before{
+        background-color: rgb(240, 245, 247);
+        border: 2px solid rgb(167, 208, 209);
+        content:"Rotar el dispositivo c:";
+    }
+
+    .table{
+        display:none;
+    }
+}*//*# sourceMappingURL=responsive.css.map */
