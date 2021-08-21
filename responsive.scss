@@ -1,10 +1,10 @@
 
-@media (max-width: 450px){
+@media (max-width: 400px){
     *{
-        font-size: 85%;
+        font-size: 80%;
     }
    
-    #fondo, #card_img, li>ul{
+    #fondo, #card_img, li>ul, .img-item{
         display: none;
     } 
     
@@ -19,7 +19,7 @@
 
 @media (max-width:765px){
     #notas{
-        height: 20rem;
+        height: auto;
     }
 }
 
