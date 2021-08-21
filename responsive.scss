@@ -1,19 +1,30 @@
 
-@media (max-width: 400px){
+@media (max-width: 200px){
     *{
         font-size: 80%;
     }
+ }
    
+ @media (max-width:350px)
+ { 
     #fondo, #card_img, li>ul, .img-item{
         display: none;
     } 
     
-    
-
     .col-12 .col-8{
         padding: 0;
         margin-left: 0;
         border:none;
+    }
+
+    .table{
+        display:none;
+    }
+        
+    #t-fq::before, #t-bio::before, #t-fis::before{
+        background-color: rgb(240, 245, 247);
+        border: 2px solid rgb(167, 208, 209);
+        content:"Rotar el dispositivo c:";
     }
 }
 
@@ -23,15 +34,3 @@
     }
 }
 
-
-@media all and (orientation: portrait) { 
-    #t-fq::before, #t-bio::before, #t-fis::before{
-        background-color: rgb(200, 179, 219);
-        border: 2px solid rgb(167, 208, 209);
-        content:"Rotar el dispositivo c:";
-    }
-
-    .table{
-        display:none;
-    }
-}

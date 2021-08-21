@@ -1,8 +1,9 @@
-@media (max-width: 400px) {
+@media (max-width: 200px) {
   * {
     font-size: 80%;
   }
-
+}
+@media (max-width: 350px) {
   #fondo, #card_img, li > ul, .img-item {
     display: none;
   }
@@ -12,20 +13,19 @@
     margin-left: 0;
     border: none;
   }
+
+  .table {
+    display: none;
+  }
+
+  #t-fq::before, #t-bio::before, #t-fis::before {
+    background-color: #f0f5f7;
+    border: 2px solid #a7d0d1;
+    content: "Rotar el dispositivo c:";
+  }
 }
 @media (max-width: 765px) {
   #notas {
     height: auto;
-  }
-}
-@media all and (orientation: portrait) {
-  #t-fq::before, #t-bio::before, #t-fis::before {
-    background-color: #c8b3db;
-    border: 2px solid #a7d0d1;
-    content: "Rotar el dispositivo c:";
-  }
-
-  .table {
-    display: none;
   }
 }/*# sourceMappingURL=responsive.css.map */
